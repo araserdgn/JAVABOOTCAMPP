@@ -1,0 +1,5 @@
+package kodlama.io.rentACar.wepApi.controllers;
+
+public class BrandsController {
+
+}
