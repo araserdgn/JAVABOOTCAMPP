@@ -1,0 +1,5 @@
+package Kodlama.io.Devs.bussines.abstracts;
+
+public class LanguageService {
+
+}

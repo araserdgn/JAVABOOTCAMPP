@@ -1,0 +1,5 @@
+package kodlama.io.rentACar.dataAccess.concrates;
+
+public class InMemoryBrandRepository {
+
+}

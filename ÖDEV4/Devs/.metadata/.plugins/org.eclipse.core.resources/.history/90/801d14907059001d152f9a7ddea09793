@@ -1,0 +1,54 @@
+package Kodlama.io.Devs.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import Kodlama.io.Devs.dataAccess.abstracts.ProgramingLanguageRepository;
+import Kodlama.io.Devs.entities.concretes.Languages;
+
+public class InMemoryLanguageRepository implements ProgramingLanguageRepository{
+	//SOMUT kısım burası
+	//Önce Soyut Sonra Somut olusur
+	List<Languages> languages;
+	
+	
+	public InMemoryLanguageRepository() {
+		languages = new ArrayList<Languages>();
+		//Elimizde Boş liste var oldu su an
+		languages.add(new Languages(1,"Java"));
+		languages.add(new Languages(2,"C#"));
+		languages.add(new Languages(3,"Python"));
+
+	}
+
+	@Override
+	public List<Languages> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void add(Languages language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Languages language) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Languages bring(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

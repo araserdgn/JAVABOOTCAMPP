@@ -1,0 +1,16 @@
+package Kodlama.io.Devs.bussines.concretes;
+
+import java.util.List;
+
+import Kodlama.io.Devs.bussines.abstracts.LanguageService;
+import Kodlama.io.Devs.bussines.abstracts.Languages;
+
+public class LanguageManager implements LanguageService{
+
+	@Override
+	public List<Languages> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
